@@ -1,0 +1,19 @@
+{
+  "name": "growth-erp-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "start": "python3 index.py",
+    "test:public": "python3 -m unittest tests.test_portfolio_api -v"
+  },
+  "devDependencies": {
+    "linkedom": "^0.18.13",
+    "playwright": "^1.63.0"
+  },
+  "dependencies": {
+    "fflate": "^0.8.3"
+  },
+  "description": "Interactive ERP and CRM portfolio with synthetic data"
+}

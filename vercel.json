@@ -1,0 +1,11 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "flask",
+  "regions": ["sin1"],
+  "functions": {
+    "index.py": {
+      "maxDuration": 120,
+      "excludeFiles": "{data/**,tests/**,node_modules/**,.venv/**,dist/**,work/**,private-samples/**,backups/**,.env*,.git/**,.agents/**,skills-lock.json}"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+Growth ERP Portfolio — 모든 회사, 거래, 금액은 가상입니다. python index.py 로 실행하세요.

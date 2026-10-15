@@ -1,0 +1,26 @@
+name: Portfolio quality checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: npm
+      - run: pip install -r requirements.txt
+      - run: npm ci
+      - run: python scripts/check_release.py --git
+      - run: npm test
+      - run: python -m unittest discover -s tests -p 'test_*.py'

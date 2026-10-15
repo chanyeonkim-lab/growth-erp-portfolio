@@ -1,0 +1,182 @@
+[
+  {
+    "question": "ERP 데이터 구조를 설명해줘",
+    "source": "flow"
+  },
+  {
+    "question": "처음부터 업무 처리 순서를 알려줘",
+    "source": "flow"
+  },
+  {
+    "question": "견적 주문 전표는 어떻게 연결되나요?",
+    "source": "flow"
+  },
+  {
+    "question": "견적 PDF 다운로드는 어디서 하나요?",
+    "source": "quote"
+  },
+  {
+    "question": "견적 엑셀을 받고 싶어요",
+    "source": "quote"
+  },
+  {
+    "question": "견적만 만들면 매출이 생기나요?",
+    "source": "quote"
+  },
+  {
+    "question": "전표 확정하면 세금계산서가 자동 발급되나요?",
+    "source": "confirmation"
+  },
+  {
+    "question": "국세청 승인번호 입력이 발행인가요?",
+    "source": "confirmation"
+  },
+  {
+    "question": "홈택스 세금계산서 발급은 여기서 되나요?",
+    "source": "confirmation"
+  },
+  {
+    "question": "부분 납품은 어떻게 기록해요?",
+    "source": "fulfillment"
+  },
+  {
+    "question": "선청구와 실제 공급은 어떻게 다른가요?",
+    "source": "fulfillment"
+  },
+  {
+    "question": "작업 완료와 수금은 같은가요?",
+    "source": "fulfillment"
+  },
+  {
+    "question": "선입금을 기존 거래에 연결하고 싶어요",
+    "source": "payment"
+  },
+  {
+    "question": "미수금과 미지급금이 뭔가요?",
+    "source": "payment"
+  },
+  {
+    "question": "결제 잔액보다 많이 연결할 수 있나요?",
+    "source": "payment"
+  },
+  {
+    "question": "대시보드 매출과 순이익이 다른 이유는?",
+    "source": "profit"
+  },
+  {
+    "question": "지출과 발생 비용의 계산 기준은?",
+    "source": "profit"
+  },
+  {
+    "question": "손익에는 VAT가 포함되나요?",
+    "source": "profit"
+  },
+  {
+    "question": "시작 전 할 일을 등록하고 싶어요",
+    "source": "tasks"
+  },
+  {
+    "question": "완료한 할 일을 다시 진행 중으로 바꾸려면?",
+    "source": "tasks"
+  },
+  {
+    "question": "자동 할 일과 수동 할 일 차이는?",
+    "source": "tasks"
+  },
+  {
+    "question": "거래처 이름을 검색하고 선택하려면?",
+    "source": "accounts"
+  },
+  {
+    "question": "주문 번호로 찾기 가능한가요?",
+    "source": "accounts"
+  },
+  {
+    "question": "비활성 고객 거래처 찾기는 어디서 하나요?",
+    "source": "accounts"
+  },
+  {
+    "question": "기초재고는 어디서 등록해요?",
+    "source": "inventory"
+  },
+  {
+    "question": "이동평균 원가란 무엇인가요?",
+    "source": "inventory"
+  },
+  {
+    "question": "공임 서비스도 재고를 관리하나요?",
+    "source": "inventory"
+  },
+  {
+    "question": "세무사 증빙 금액 변경이 장부를 바꾸나요?",
+    "source": "evidence"
+  },
+  {
+    "question": "매입세액 공제인지 단정해줄 수 있나요?",
+    "source": "evidence"
+  },
+  {
+    "question": "증빙 작성일 발급일은 어디서 입력해요?",
+    "source": "evidence"
+  },
+  {
+    "question": "확정 전표 정정 취소 방법은?",
+    "source": "correction"
+  },
+  {
+    "question": "이관한 과거 자료는 삭제되나요?",
+    "source": "correction"
+  },
+  {
+    "question": "역분개가 무엇인가요?",
+    "source": "correction"
+  },
+  {
+    "question": "문서함 PDF 업로드 한도는?",
+    "source": "documents"
+  },
+  {
+    "question": "엑셀 원본 업로드만 해도 AI에 전송돼요?",
+    "source": "documents"
+  },
+  {
+    "question": "AI 문서 읽기와 가이드 차이는?",
+    "source": "documents"
+  },
+  {
+    "question": "특정 거래처의 실제 잔액 조회해줘",
+    "source": "scope"
+  },
+  {
+    "question": "자동으로 데이터를 수정할 수 있나요?",
+    "source": "scope"
+  },
+  {
+    "question": "모바일에서도 지원하나요?",
+    "source": "scope"
+  },
+  {
+    "question": "공급가액과 세액 합계 뜻은?",
+    "source": "terms-money"
+  },
+  {
+    "question": "개인 인출은 경비인가요?",
+    "source": "terms-money"
+  },
+  {
+    "question": "매출총이익과 순이익 용어를 설명해줘",
+    "source": "terms-money"
+  },
+  {
+    "question": "차변 대변 분개 뜻은?",
+    "source": "terms-records"
+  },
+  {
+    "question": "미지급금 용어가 어려워요",
+    "source": "terms-records"
+  },
+  {
+    "question": "전표와 거래명세서 뜻은?",
+    "source": "terms-records"
+  }
+]

@@ -1,0 +1,10 @@
+openpyxl>=3.1,<4
+pypdf>=5,<7
+Flask>=3.1,<4
+psycopg[binary]>=3.2,<4
+storage3>=2.28,<3
+
+reportlab>=4.4,<5
+popbill==1.64.2
+
+Pillow>=11,<13
