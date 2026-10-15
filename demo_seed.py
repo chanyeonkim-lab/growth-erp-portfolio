@@ -89,7 +89,7 @@ def _seed(as_of):
                 cmd('erp.voucher.confirm', id=vid, date=dt.isoformat())
             if m < 0 or i < 4:
                 cmd('erp.fulfill', id=vid, date=dt.isoformat(), items=[dict(lineId=r['id'],
-                    quantity=r['quantity'] if m < 0 or i < 3 else r['quantity']/2) for r in v['items']])
+                    quantity=r['quantity'] if m < 0 or i < 2 else r['quantity']/2) for r in v['items']])
             if m < 0 or i < 3:
                 amount = v['amount'] if m < 0 or i < 2 else round(v['amount']*.3)
                 cmd('erp.payment.save', direction='in', accountId=accounts[i], date=dt.isoformat(),

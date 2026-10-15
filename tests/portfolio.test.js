@@ -17,6 +17,8 @@ print(json.dumps(dict(ok=r.status_code<400,value=r.json)))`],{input:JSON.stringi
 const {window,document}=parseHTML(fs.readFileSync('app/index.html','utf8'));
 const location={hash:'#dashboard',href:'https://demo.example/#dashboard',origin:'https://demo.example',reload(){}};
 Object.assign(globalThis,{window,document,location});
+// Node 25's native LockManager retains event-loop handles; use a deterministic DOM-test lock.
+Object.defineProperty(navigator,'locks',{value:{request:async(_name,fn)=>fn()},configurable:true});
 const stored=new Map();
 globalThis.localStorage={getItem:k=>stored.get(k)||null,setItem:(k,v)=>stored.set(k,v),removeItem:k=>stored.delete(k)};
 globalThis.fetch=async(path,options)=>{const r=backend(path,options?.body?JSON.parse(options.body):undefined);return {ok:r.ok,json:async()=>r.value};};
