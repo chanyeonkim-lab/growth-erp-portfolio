@@ -4,7 +4,7 @@
 
 실제 운영용으로 개발한 ERP·CRM의 시스템을 기반으로 만든 인터랙티브 포트폴리오입니다. 모든 회사, 인물, 연락처, 품목 단가, 거래와 문서는 가상입니다. 운영 데이터, 회사 도장, 실제 견적 파일, 운영 환경 변수, 기존 Git 이력은 포함하지 않습니다.
 
-[Live demo](https://growth-erp-portfolio.vercel.app) · [체험 시나리오](docs/DEMO.md) · [구조와 설계](docs/ARCHITECTURE.md)
+[Live demo](https://growth-erp-portfolio.vercel.app) · [Quick Look 소개](docs/QUICK_LOOK.md) · [체험 시나리오](docs/DEMO.md) · [구조와 설계](docs/ARCHITECTURE.md)
 
 ## 직접 체험하기
 
